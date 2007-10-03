@@ -5,6 +5,7 @@ WriteMakefile
           'NAME' => 'Hash::Slice',
           'VERSION_FROM' => 'lib/Hash/Slice.pm',
           'PREREQ_PM' => {
+                           'Carp' => '0',
                            'Test::Deep' => '0',
                            'Test::More' => '0'
                          },
