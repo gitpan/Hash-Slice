@@ -1,25 +1,25 @@
 ---
-name: Hash-Slice
-version: 0.02
+abstract: 'Make a hash from a deep slice of another hash'
 author:
-  - 'Robert Krimen <rkrimen@cpan.org>'
-abstract: Make a hash from a deep slice of another hash
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  Carp: 0
+  - 'Robert Krimen, C<< <rkrimen at cpan.org> >>'
 build_requires:
-  Test::Deep: 0
-  Test::More: 0
-recommends:
+  Test::Most: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.760'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Hash-Slice
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Carp::Clan: 0
   Clone: 0
   Storable: 0
-provides:
-  Hash::Slice:
-    file: lib/Hash/Slice.pm
-    version: 0.02
-generated_by: Module::Build version 0.2806
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/robertkrimen/hash-slice/tree/master
+version: 0.03
